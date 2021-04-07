@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>3 Day Journal</title>
+        <meta name = "author" content = "Eric Chen">
+        <link rel = "icon" type = "image/png" href = "https://i.pinimg.com/236x/54/a4/00/54a4008daad4565a9b5db1b94e59c74c.jpg">
+    </head>
+    <body>
+        <main>
+            <h1><span style = "color:rgb(46, 177, 238)">My 3 Day Journal</span></h1>
+            <hr>
+            <nav>
+                <a href = "#mon">Monday</a>
+                <a href = "#tues">Tuesday</a>
+                <a href = "#wed">Wednesday</a>
+            </nav>
+            <hr>
+            <div>
+                <section id = "mon">
+                    <header>
+                        <h2>Monday, April 5, 2021</h2>
+                        <p>
+                            Mondays aren't <i>too</i> interesting, because I only have to attend the discussion for CSE 110. Luckily for me, there was <b>no</b> discussion on Monday, so I just got a 3 day weekend. I should note here that <strong>my memory is <em>terrible</em></strong>, so I honestly don't really remember what I did. I did find this funny video though. <strong>Warning: the audio is a bit loud.</strong>
+                        </p>
+                        <br>
+                        <video height = "300" width = "300" controls>
+                            <source src = "Media needed for journal/kek.webm" type = "video/webm">
+                        </video>
+                    </header>
+                </section>
+            </div>
+            <hr>
+            <section id = "tues">
+                <header>
+                    <h2>Tuesday, April 6, 2021</h2>
+                    <p>Tuesdays...one of the days in which I need to be waken up by an alarm. <strong>Warning: this is my default Samsung alarm and it might trigger some people.</strong></p>
+                    <audio controls>
+                        <source src = "Media needed for journal/homecoming.mp3" type = "audio/mp3">
+                    </audio>
+                    <p>All 4 of my class have lecture on Tuesday and Thursday. I'm currently taking:</p>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>CSE 101: Design and Analysis of Algorithms</summary>
+                                <p>Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage. NP-complete problems.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>CSE 151A: Intro. to Machine Learning</summary>
+                                <p>Broad introduction to machine learning. The topics include some topics in supervised learning, such as k-nearest neighbor classifiers, decision trees, boosting, and perceptrons; and topics in unsupervised learning, such as k-means and hierarchical clustering. In addition to the actual algorithms, the course focuses on the principles behind the algorithms.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>CSE 110: Software Engineering</summary>
+                                <p>Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDE’s, version control, and test harnesses.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>LIGN 8: Languages and Cultures in America</summary>
+                                <p>Language in American culture and society. Standard and nonstandard English in school, media, pop culture, politics; bilingualism and education; cultural perception of language issues over time; languages and cultures in the “melting pot,” including Native American, Hispanic, African American, Deaf.</p>
+                            </details>
+                        </li>
+                    </ul>
+                    <p>My 101 and 151A lectures actually happen at the exact same time, so I have to watch the recording later during the day.</p>
+                    
+                    <p>At the end of the day, after going to 4 lectures, I don't feel like doing any more schoolwork, so I just chill with my friends. I played GTA 5 single-player and streamed it to them through Discord.</p>
+                </header>
+            </section>
+            <hr>
+            <section id = "wed">
+                <header>
+                    <h2>Wednesday, April 7, 2021</h2>
+                    <p>I got my <a href = "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/janssen.html">J&J Vaccine</a> this morning and my left arm feels a bit sore. Hopefully that's the worst side-effect that I experience. As I'm currently writing this journal entry, I'm trying to think about what I want to do after I finish this lab.</p>
+                    <h3>Things I'll probably do after this lab:</h3>
+                    <ol>
+                        <li>Shower</li>
+                        <li>Check school sites (Piazza, Canvas, Slack)</li>
+                        <li>
+                            Chill out, because tomorrow is Thursday (yuck)
+                            <br>
+                            <img src = "Media needed for journal/F.jpg" alt = "F">
+                        </li>
+                    </ol>
+                </header>
+            </section>
+            <hr>
+
+            <form>
+                <fieldset>
+                    <legend>New Journal Entry</legend>
+
+                    <label>Date:</label>
+                    <input type = "date"><br><br>
+
+                    <label>Thoughts:</label><br>
+                    <textarea rows="5" cols="75"></textarea><br><br>
+
+                    <label>I ate some yummy food:</label>
+                    <input type = "checkbox"><br><br>
+
+                    <p>How would you rate the day:</p>
+                    <input type = "radio" name = "rate">
+                    <label>1</label>
+                    <input type = "radio" name = "rate">
+                    <label>2</label>
+                    <input type = "radio" name = "rate">
+                    <label>3</label>
+                    <input type = "radio" name = "rate">
+                    <label>4</label>
+                    <input type = "radio" name = "rate">
+                    <label>5</label><br><br>
+                    <hr>
+                    <label>Optional feedback on this form:</label>
+                    <input type = "text"><br><br>
+
+                    <label>Are you a student or a professor?</label>
+                    <select>
+                        <option>Student</option>
+                        <option>Professor</option>
+                    </select>
+                    <br><br>
+
+                    <label>What operating system are you using?</label>
+                    <input list = "OS">
+                    <datalist id = "OS">
+                        <option value = "Windows"></option>
+                        <option value = "MacOS"></option>
+                        <option value = "Linux"></option>
+                    </datalist><br><br>
+                    <button type = "button">Submit</button>
+                </fieldset>
+            </form>
+
+            <footer>
+                <p>Author: Eric Chen</p>
+            </footer>
+        </main>
+    </body>
+</html>
