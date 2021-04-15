@@ -1,0 +1,47 @@
+#title {
+    margin-top: 10cm;     /* Added a margin to the title */
+    margin-left: 100px;
+    margin-bottom: 1in;;
+}
+
+.date {
+    background-color: rgb(141, 228, 235);
+    margin: 10px 20px 30px 40px;
+    display: block;
+}
+
+* {
+    background-color: cornsilk;
+    margin: auto;
+}
+
+p {
+    padding: 10em 10ex 10rem 10px;
+}
+
+video {
+    padding-left: 50px;
+}
+
+p[target=t1] {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 4px;
+    border-radius: 5px;
+}
+
+p::after {
+    content: "  Ok. Goodbye."
+}
+
+h1, h2 {
+    color:rgb(15, 68, 71);
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+}
+
+.reina {
+    max-width: 1000px;
+    max-height: 1000px;
+}
