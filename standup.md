@@ -6,4 +6,4 @@ What did you do yesterday:
 
 What will you work on today: 
 
-do you have any obstacles: 
+Do you have any obstacles: 
