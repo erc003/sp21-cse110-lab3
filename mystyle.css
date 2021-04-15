@@ -11,7 +11,7 @@
 }
 
 * {
-    background-color: cornsilk;
+    background-color: cornsilk;     /* Added a background color to the whole page */
     margin: auto;
 }
 
