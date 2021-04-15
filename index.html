@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <title>3 Day Journal</title>
-        <meta name = "author" content = "Eric Chen">
+        <meta name = "author" content = "Eric Chen" content="width=device-width, initial-scale=1.0">
         <link rel = "icon" type = "image/png" href = "https://i.pinimg.com/236x/54/a4/00/54a4008daad4565a9b5db1b94e59c74c.jpg">
         <link rel="stylesheet" href="mystyle.css">
 
@@ -12,10 +12,14 @@
             }
         </style>
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <h1 id = "title"><span>My 3 Day Journal</span></h1>
+            <h1 id = "title">
+                <span>My 3 Day Journal</span>
+            </h1>
             <hr>
             <nav id = "relLinks">
                 <a style = "color: #F87934" href = "#mon">Monday</a>
@@ -30,6 +34,9 @@
                         <p target = "t1">
                             Mondays aren't <i>too</i> interesting, because I only have to attend the discussion for CSE 110. Luckily for me, there was <b>no</b> discussion on Monday, so I just got a 3 day weekend. I should note here that <strong>my memory is <em>terrible</em></strong>, so I honestly don't really remember what I did. I did find this funny video though. <strong>Warning: the audio is a bit loud.</strong>
                         </p>
+                        <div>
+                            <p>Journaling is hard.</p>
+                        </div>
                         <br>
                         <video height = "300" width = "300" controls>
                             <source src = "Media_needed_for_journal/kek.webm" type = "video/webm">
@@ -46,29 +53,29 @@
                         <source src = "Media_needed_for_journal/homecoming.mp3" type = "audio/mp3">
                     </audio>
                     <p>All 4 of my class have lecture on Tuesday and Thursday. I'm currently taking:</p>
-                    <ul>
+                    <ul class = "grid-container">
                         <li>
                             <details>
                                 <summary>CSE 101: Design and Analysis of Algorithms</summary>
-                                <p>Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage. NP-complete problems.</p>
+                                <p class = "desc">Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage. NP-complete problems.</p>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary>CSE 151A: Intro. to Machine Learning</summary>
-                                <p>Broad introduction to machine learning. The topics include some topics in supervised learning, such as k-nearest neighbor classifiers, decision trees, boosting, and perceptrons; and topics in unsupervised learning, such as k-means and hierarchical clustering. In addition to the actual algorithms, the course focuses on the principles behind the algorithms.</p>
+                                <p class = "desc">Broad introduction to machine learning. The topics include some topics in supervised learning, such as k-nearest neighbor classifiers, decision trees, boosting, and perceptrons; and topics in unsupervised learning, such as k-means and hierarchical clustering. In addition to the actual algorithms, the course focuses on the principles behind the algorithms.</p>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary>CSE 110: Software Engineering</summary>
-                                <p>Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDE’s, version control, and test harnesses.</p>
+                                <p class = "desc">Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDE’s, version control, and test harnesses.</p>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary>LIGN 8: Languages and Cultures in America</summary>
-                                <p>Language in American culture and society. Standard and nonstandard English in school, media, pop culture, politics; bilingualism and education; cultural perception of language issues over time; languages and cultures in the “melting pot,” including Native American, Hispanic, African American, Deaf.</p>
+                                <p class = "desc">Language in American culture and society. Standard and nonstandard English in school, media, pop culture, politics; bilingualism and education; cultural perception of language issues over time; languages and cultures in the “melting pot,” including Native American, Hispanic, African American, Deaf.</p>
                             </details>
                         </li>
                     </ul>
@@ -83,7 +90,7 @@
                     <h2 class = "date">Wednesday, April 7, 2021</h2>
                     <p>I got my <a href = "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/janssen.html">J&J Vaccine</a> this morning and my left arm feels a bit sore. Hopefully that's the worst side-effect that I experience. As I'm currently writing this journal entry, I'm trying to think about what I want to do after I finish this lab.</p>
                     <h3>Things I'll probably do after this lab:</h3>
-                    <ol>
+                    <ol class = "flex-container">
                         <li>Shower</li>
                         <li>Check school sites (Piazza, Canvas, Slack)</li>
                         <li>

@@ -31,7 +31,7 @@ p[target=t1] {
 }
 
 p::after {
-    content: "  Ok. Goodbye."
+    content: "  Ok. Goodbye.";
 }
 
 h1, h2 {
@@ -44,4 +44,49 @@ h1, h2 {
 .reina {
     max-width: 1000px;
     max-height: 1000px;
+    position: relative;
+}
+
+nav a {
+    position: static;
+}
+
+button:hover {
+    color: sienna;
+}
+
+button:active {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px 300px 400px;
+    justify-items: start;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 1000px) {
+    ol > li {
+      color: rgb(196, 123, 14);
+    }
+}
+
+h2 ~ p {
+    text-decoration: underline;
+}
+
+h2 + p {
+    font-family: 'Zen Dots', cursive;
+}
+
+p.desc {
+    color:slateblue;
 }
